@@ -16,7 +16,7 @@ a{
     text-decoration: none;
 }
 .box{
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: white;
     color: black;
     text-align: center;
@@ -28,12 +28,22 @@ a{
     border-width: 2px;
     border-color: rgb(52, 53, 51);
     border-style: solid;
+    float: left;
 }
-.dot {
-    height: 25px;
-    width: 25px;
-    background-color: rgb(10, 25, 231);
-    color: aliceblue;
-    border-radius: 50%;
-    display: inline-block;
-  }
+.description{
+    margin-top: 50px;
+    margin-left: 50px;
+    clear: both;
+}
+.ingredients{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+.directions{
+    color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
